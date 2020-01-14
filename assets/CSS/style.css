@@ -1,0 +1,133 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagepage1 {
+    background-color: royalblue;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../IMG/numero.png");
+    justify-content: space-around;
+}
+
+.banniere-bleu {
+    background-color: #15274b;
+    height: 10%;
+}
+
+
+.about {
+    background-color: #979B9B;
+    display: flex;
+    width: 100%;
+    height: 65%;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+.skills {
+    background-color:#484C4C;
+    display: flex;
+    widows: 100%;
+    height: 65%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+    
+}
+
+.experience {
+    background-color: #979B9B;
+    display: flex;
+    widows: 100%;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.training {
+    background-color: #484C4C;
+    display: flex;
+    widows: 100%;
+    height: 65%;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.contact {
+    background-color: #979B9B;
+    display: flex;
+    widows: 100%;
+    height: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.formu-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+footer {
+    background-color:#353535;
+    display: flex;
+    widows: 100%;
+    height: 3%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#BABDBD;
+    
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
