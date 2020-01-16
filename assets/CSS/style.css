@@ -2,11 +2,6 @@
     scroll-behavior: smooth;
 }
 
-
-
-
-
-
 body {
     margin: 0;
     scroll-behavior: smooth;
@@ -23,25 +18,42 @@ body {
     flex-direction: column;
 }
 
+
+
 .imagepage1 {
     background-color: royalblue;
     display: flex;
     width: 100%;
     height: 50%;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     background-image: url("../IMG/numero.png");
     justify-content: space-around;
+    font-family: 'Adventure', sans-serif;
+    font-size: xx-large;
+    color: #353535;
+    align-items: baseline;
+    flex-direction: column;
 }
+
+@font-face {
+    font-family: Adventure;
+    src: url("Adventure.otf") format("otf");
+}
+
 
 .banniere-bleu {
     background-color: #15274b;
     height: 10%;
+    color: #979B9B;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
 }
 
 
 .about {
-    background-color: #979B9B;
+    background-color: #efeae4;
     display: flex;
     width: 100%;
     height: 65%;
@@ -53,11 +65,10 @@ body {
 }
 
 
-.skills {
-    background-color:#484C4C;
+.parcours {
+    background-color:#353535;
     display: flex;
-    widows: 100%;
-    height: 65%;
+    padding: 5%;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
@@ -66,8 +77,8 @@ body {
     
 }
 
-.experience {
-    background-color: #979B9B;
+.creations {
+    background-color: #efeae4;
     display: flex;
     widows: 100%;
     height: 65%;
@@ -79,20 +90,10 @@ body {
     
 }
 
-.training {
-    background-color: #484C4C;
-    display: flex;
-    widows: 100%;
-    height: 65%;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-    
-}
+
 
 .contact {
-    background-color: #979B9B;
+    background-color: #efeae4;
     display: flex;
     widows: 100%;
     height: 45%;
@@ -131,3 +132,11 @@ h3 {
 p {
     margin: 0;
 }
+
+
+/*===RESPONSIVE===*/
+@media(max-width:767px){.class{proprieter css}}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+/*===_________===*/
