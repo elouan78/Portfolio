@@ -34,7 +34,7 @@ body {
     align-items: baseline;
     flex-direction: column;
 }
-
+/*CREATION POLICE POUR TEXT IMAGE BANNIERE*/
 @font-face {
     font-family: Adventure;
     src: url("Adventure.otf") format("otf");
@@ -56,7 +56,7 @@ body {
     background-color: #efeae4;
     display: flex;
     width: 100%;
-    height: 65%;
+    height: 50%;
     align-items: center;
     justify-content: space-around;
     
@@ -68,14 +68,17 @@ body {
 .parcours {
     background-color:#353535;
     display: flex;
-    padding: 5%;
+    padding: 1%;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     
-    
+}
+
+.parcours-align {
     
 }
+
 
 .creations {
     background-color: #efeae4;
