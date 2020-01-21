@@ -6,6 +6,8 @@ function formulaire () {
 
     var phone = document.form.phone.value;
 
-    console.log(name + " " + email + " " + phone)
+    var message = document.form.message.value;
+
+    console.log(" " + name + " " + email + " " + phone + " " + message ) 
 }
 

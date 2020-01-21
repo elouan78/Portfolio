@@ -1,13 +1,12 @@
-* {
-    scroll-behavior: smooth;
-}
+/*PROPRIETIES GLOABLE/SCROLL/FLEX*/
+*{scroll-behavior: smooth;}
 
 body {
     margin: 0;
     scroll-behavior: smooth;
 }
 
-.flex-row {
+.flex-row { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,8 +17,7 @@ body {
     flex-direction: column;
 }
 
-
-
+/*IMAGE BANNIERE SITE*/
 .imagepage1 {
     background-color: royalblue;
     display: flex;
@@ -33,14 +31,12 @@ body {
     color: #353535;
     align-items: baseline;
     flex-direction: column;
-}
-/*CREATION POLICE POUR TEXT IMAGE BANNIERE*/
-@font-face {
-    font-family: Adventure;
-    src: url("Adventure.otf") format("otf");
+    
 }
 
 
+
+/*TEXTE "JE SUIS DEVELOPPEUR WEB FULL STACK"*/
 .banniere-bleu {
     background-color: #15274b;
     height: 10%;
@@ -51,7 +47,7 @@ body {
     font-size: xx-large;
 }
 
-
+/*PARTI A PROPOS*/
 .about {
     background-color: #efeae4;
     display: flex;
@@ -64,7 +60,7 @@ body {
     
 }
 
-
+/*PARTI PARCOURS*/
 .parcours {
     background-color:#353535;
     display: flex;
@@ -72,14 +68,36 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    color:#BABDBD;
     
 }
+
+
+/*taille police large*/
+.txt-size {
+    font-size:xx-large ;
+}
+
 
 .parcours-align {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*CV DOWNLOAD*/
+.cv{
+    height: 8%;
+    width: 100%;
+    background-color:#15274b;
     
 }
 
+/*TEXT CV DOWNLOAD*/
 
+
+
+/*PARTI CREATION*/
 .creations {
     background-color: #efeae4;
     display: flex;
@@ -99,14 +117,14 @@ body {
     background-color: #efeae4;
     display: flex;
     widows: 100%;
-    height: 45%;
+    height: 20%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     
     
 }
-
+/*FORMULAIRE CONTACT*/
 .formu-contact {
     display: flex;
     flex-direction: column;
@@ -124,22 +142,12 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    color:#BABDBD;
-    
+    color:#BABDBD;    
 }
-
-h3 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
+/*HAUT DE PAGE BOUTON CLIQUABLE*/
+#retour-page{text-decoration: none; color:#353535;}
+/*ENSEMBLES BALISE = 0 MARGIN*/
+h3{margin: 0;}
+p{margin: 0;}
 
 
-/*===RESPONSIVE===*/
-@media(max-width:767px){.class{proprieter css}}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
-/*===_________===*/

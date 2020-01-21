@@ -24,10 +24,7 @@
 
             <!-- Image de bannière -->
 
-            <section class="imagepage1">
-                <!-- <p>Bonjour<br>et bienvenue !</p>
-                <p>Je m'appelle</p>
-                <p>Elouan Macé</p> -->
+            <section class="imagepage1" id="imageone">
             </section>
 
             <!-- Image bannnière bleu -->
@@ -61,25 +58,36 @@
 
             <section class="parcours" id="parcours">
                     <div>
-                        <h3 class="parcours-align">Mes formations :</h3>
+                        <h3 class="parcours-align txt-size">Mes formations :</h3>
                         <br>
                     </div>
 
                     <div>
-                        <h3>Simplon</h3>
-                        <p>Formation Développement Web : 2019-2020</p>  
+                        <h3 class="parcours-align">Simplon</h3>
+                        <p>Formation Développement Web : 2019-2020</p>
+                        <br> 
                     </div>
                     
                     <div>
-                        <h3>Lycée Des Métiers Louis Blériot</h3>
+                        <h3 class="parcours-align">Lycée Des Métiers Louis Blériot</h3>
                         <p>Systèmes Numérique année de seconde validé : 2018-2019</p>
+                        <br>
                     </div>
 
                     <div>
-                        <h3>Collége La Clef Saint Pierre</h3>
-                        <p>Brevet Des Collégues : 2018-2017</p>  
+                        <h3 class="parcours-align">Collége La Clef Saint Pierre</h3>
+                        <p>Brevet Des Collégues : 2018-2017</p>
+                        <br>  
                     </div>
 
+            </section>
+
+            <!-- Parti Téléchargement CV -->
+            
+            <section class="cv" id="download-cv">
+            <div class="textdownload">
+                <a href="/assets/DOCUMENTS/cv.pdf" target="_blank">Download CV :</a>
+            </div>
             </section>
 
             <!-- Parti créations -->
@@ -103,6 +111,7 @@
                     <input name="name" type="text" id="name" placeholder="Votre Nom">
                     <input name="email" type="text" id="email" placeholder="Votre Email">
                     <input name="phone" type="texte" id="phone" placeholder="Votre Téléphone">
+                    <input name="message" type="texte" id="message" placeholder="Votre Message">
 
                     <button onclick="formulaire()" type="button" class="bouton">Envoyer</button>
 
@@ -111,7 +120,7 @@
                 <p>Email : elouanmace.professionnel@gmail.com</p>
                 <p>Localisation : Montigny-Le-Bretonneux, France</p><br>
                 <!-- <a href="https://www.linkedin.com/in/elouanmace/"><img class="logolinkedin" src="assets/IMG/linkedin.png" alt="[logo linkedin] Erreur de chargement !"></a> -->
-                <a href="#header" class="js-scrollTo" id="retour-page">Haut de page</a>
+                <a href="#imageone" class="js-scrollTo" id="retour-page">Haut de page</a>
             </section>
 
         </main>
