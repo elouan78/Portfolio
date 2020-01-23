@@ -90,12 +90,17 @@ body {
     height: 8%;
     width: 100%;
     background-color:#15274b;
+    font-size: x-large;
     
 }
 
 /*TEXT CV DOWNLOAD*/
+.textdownload{
+    color:white;
+}
 
-
+/*IMAGE LOGO CV*/
+.img-cv{width: 5%; height: 5%;}
 
 /*PARTI CREATION*/
 .creations {
