@@ -4,7 +4,13 @@
 /*PARTI SITE A PROPOS,4 SOUS PARTI INFO(TAILLE)*/
 .info{
 background-color: rgb(47, 46, 46); 
-height: 55%; 
-width: 23%;
+height: 20em; 
+width: 25em;
 display: flex; justify-content: center;
+color:blue;
+border: 5px solid;
+}
+
+.text-color {
+    color:#BABDBD
 }

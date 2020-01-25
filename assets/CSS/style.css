@@ -31,8 +31,30 @@ body {
     color: #353535;
     align-items: baseline;
     flex-direction: column;
-    
+    object-fit: scale-down;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .imagepage1 {
+    background-color: royalblue;
+    display: flex;
+    width: 50%;
+    height: 30%;
+    justify-content: flex-start;
+    background-image: url("../IMG/numero.png");
+    justify-content: space-around;
+    font-family: 'Adventure', sans-serif;
+    font-size: xx-large;
+    color: #353535;
+    align-items: baseline;
+    flex-direction: column;
+    object-fit: scale-down;
+}}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
 
 
 
@@ -91,16 +113,29 @@ body {
     width: 100%;
     background-color:#15274b;
     font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
     
 }
 
 /*TEXT CV DOWNLOAD*/
 .textdownload{
     color:white;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 /*IMAGE LOGO CV*/
-.img-cv{width: 5%; height: 5%;}
+.img-cv{
+    width: 75px; 
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+
+}
 
 /*PARTI CREATION*/
 .creations {
@@ -150,7 +185,10 @@ footer {
     color:#BABDBD;    
 }
 /*HAUT DE PAGE BOUTON CLIQUABLE*/
-#retour-page{text-decoration: none; color:#353535;}
+#retour-page {
+    text-decoration: none;
+    color:#353535;
+}
 /*ENSEMBLES BALISE = 0 MARGIN*/
 h3{margin: 0;}
 p{margin: 0;}
