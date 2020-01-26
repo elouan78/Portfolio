@@ -53,7 +53,7 @@ body {
 }}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {}
 
 
 
@@ -115,7 +115,9 @@ body {
     font-size: x-large;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
     
     
 }
@@ -129,11 +131,14 @@ body {
 }
 
 /*IMAGE LOGO CV*/
-.img-cv{
+.imgcv{
     width: 75px; 
     height: 74px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
