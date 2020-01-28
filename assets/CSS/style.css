@@ -23,17 +23,32 @@ body {
     display: flex;
     width: 100%;
     height: 50%;
-    justify-content: flex-start;
-    background-image: url(../IMG/font-banniere2.png);
-    justify-content: space-around;
+    justify-content: center;
+    background-image: url("../IMG/font-banniere2.png");
     font-family: 'Adventure', sans-serif;
     font-size: xx-large;
     color: #353535;
-    align-items: baseline;
     flex-direction: column;
+    align-items: stretch;
     object-fit: scale-down;
     background-repeat: no-repeat;
 }
+
+
+.titre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: 'Adventure', sans-serif;
+}
+
+@font-face {
+    font-family: "Adventure";
+    src: url("/fonts/Adventure.opentype") format("opentype"),
+           url("/fonts/Adventure.opentype") format("opentype");
+   }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -54,7 +69,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 /*PARTI A PROPOS*/
@@ -82,7 +97,7 @@ body {
 .parcours {
     background-color:#353535;
     display: flex;
-    padding: 1%;
+    padding: 5%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -149,7 +164,7 @@ body {
     background-color: #efeae4;
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -160,12 +175,18 @@ body {
 
 .project{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 10em;
     width: 10em;
     background-color: black;
     color: white;
     flex-wrap: wrap;
+    margin: 10px;   
+}
+
+.centerh3{
+    text-align: center;
+    width: 100%;
 }
 
 .bgcolor-blue{background-color: rgb(44, 44, 46);}
@@ -189,6 +210,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: xx-large;
+}
+
+.info-contact {
+    font-size: medium;
 }
 
 footer {
