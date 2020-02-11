@@ -1,3 +1,6 @@
+
+/* SI FICHIER CE METTENT PAS A JOURS SUR SITE EN LIGNE FAIRE CTRL + F5 */
+
 /*PROPRIETIES GLOABLE/SCROLL/FLEX*/
 *{scroll-behavior: smooth;}
 
@@ -34,20 +37,17 @@ body {
     background-repeat: no-repeat;
 }
 
+#imageone{
+    font-family: 'Lobster', cursive;
+}
 
 .titre{
     display: flex;
     flex-direction: row;
     margin-left: 5%;
     margin-top: 5%;
-    font-family: 'Adventure', sans-serif;
+    font-size: xx-large;
 }
-
-@font-face {
-    font-family: "Adventure";
-    src: url("/fonts/Adventure.opentype") format("opentype"),
-           url("/fonts/Adventure.opentype") format("opentype");
-   }
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -231,6 +231,7 @@ footer {
 #retour-page {
     text-decoration: none;
     color:#353535;
+    width: auto;
 }
 /*ENSEMBLES BALISE = 0 MARGIN*/
 h3{margin: 0;}
