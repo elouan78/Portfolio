@@ -1,6 +1,3 @@
-
-/* SI FICHIER CE METTENT PAS A JOURS SUR SITE EN LIGNE FAIRE CTRL + F5 */
-
 /*PROPRIETIES GLOABLE/SCROLL/FLEX*/
 *{scroll-behavior: smooth;}
 
@@ -12,16 +9,13 @@ body {
 .flex-row { 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
 }
-
-.alig-hauteur{align-items: center;}
-
-.alig-largeur{justify-content: center;}
 
 /*IMAGE BANNIERE SITE*/
 .imagepage1 {
@@ -91,8 +85,8 @@ body {
 /*IMAGE DIV PARTI A PROPOS*/
 
 .img-info{
-    padding: 15px;
-    
+    height: 75px;
+    width: 75px;
 }
 
 
@@ -119,17 +113,12 @@ body {
 .parcours-align {
     display: flex;
     justify-content: center;
-    font-size: xx-large;
 }
 
 /*taille police large*/
 .txt-size {
     font-size:xx-large ;
 }
-
-.maj-text{text-transform: uppercase;}
-
-.bg-color{color: #979B9B;}
 
 
 /*CV DOWNLOAD*/
@@ -246,5 +235,3 @@ h3{margin: 0;}
 p{margin: 0;}
 
 
-/* TAILLE DIV */
-.div-taille{height: 85px; width: 85px;}

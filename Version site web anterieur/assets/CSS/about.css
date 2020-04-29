@@ -6,13 +6,10 @@
 background-color: rgb(47, 46, 46); 
 /*height: 10em;*/ 
 width: 25em;
-display: flex; 
-align-items: center; 
+display: flex; justify-content: center;
 color:grey;
 border: 3px solid;
 }
-
-.margin{margin: 5px;}
 
 .text-color {
     color:#BABDBD;
@@ -22,5 +19,4 @@ border: 3px solid;
     flex-direction: row;
     justify-content: center;
     padding-top: 2%;
-    margin-left: 12px;
 }

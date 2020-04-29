@@ -1,0 +1,44 @@
+*{margin:0px; padding:0px}
+
+/* nav barre */
+header {
+    background-color:#353535;
+    font-size: 160%;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    z-index: 100;
+}
+
+nav, ul, li, a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    transition: 0.5s ease;
+}
+
+
+/*effet visuel bouton nav*/
+nav ul li a{
+    color:#BABDBD;
+    background-color: #353535;
+}
+
+nav ul li:hover a{
+    background-color: rgb(117, 119, 119);
+    color:#353535;
+    
+    
+}
+
+
